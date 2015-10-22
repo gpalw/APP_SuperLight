@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/framelayout_bulb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ig_bulb"
+        android:onClick="onClick_Bulb"
+        android:src="@drawable/bulb_cross_fade"/>
+
+    <lw.com.superlight.widget.HideTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tv_hide_bulb"
+        android:gravity="center"
+        android:text="电灯泡：点击变亮"
+        android:textSize="20sp" />
+</FrameLayout>
